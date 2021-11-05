@@ -1,11 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   background-color: palevioletred;
   color: honeydew;
-  position:fixed;
+  position: fixed;
   width: 100%;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
