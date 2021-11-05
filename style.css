@@ -1,7 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  padding: ;
+  margin: ;
+  border: 5px solid rebeccapurple;
+  position: static;
 }
-
+      
 #cabecalho {
   background-color: palevioletred;
   color: honeydew;
@@ -9,4 +13,42 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  font: 11;
 }
+      
+h1 {
+  font: normal , 30px , arial , verdana , serif;
+  text-align: center;
+
+}
+      
+th {
+  background-color: blueviolet;
+}
+      
+.lado-direito {
+  float: right;
+  color: brown;
+  font-family: cursive;
+  text-align: center;
+  font: normal , 5, arial ;
+  background-color: plum;
+  border: purple;
+
+
+}
+      
+.lado-esquerdo {
+  float: left;
+  background-color: plum;
+  border: 5px solid purple;
+  text-align: center;
+  
+}
+
+table , th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+      
