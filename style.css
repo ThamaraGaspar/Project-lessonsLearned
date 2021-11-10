@@ -1,54 +1,63 @@
 body {
-  background-color: rgb(253, 251, 251);
-  padding: ;
-  margin: ;
-  border: 5px solid rebeccapurple;
-  position: static;
+  font-family: fantasy;
+  background-color:  rgb(253, 251, 251);
+  margin: 20px;
+
 }
-      
+
+main{
+  color: palevioletred;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+#lado1 {
+  display: inline-block;
+}
+
 #cabecalho {
-  background-color: palevioletred;
-  color: honeydew;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  font: 11;
+position: fixed;
+top: 0;
+background-color: rgb(253, 251, 251);
+width: 100%;
+text-align: center;
 }
-      
-h1 {
-  font: normal , 30px , arial , verdana , serif;
-  text-align: center;
-
-}
-      
-th {
-  background-color: blueviolet;
-}
-      
-.lado-direito {
-  float: right;
-  color: brown;
-  font-family: cursive;
-  text-align: center;
-  font: normal , 5, arial ;
-  background-color: plum;
-  border: purple;
-
-
-}
-      
-.lado-esquerdo {
-  float: left;
-  background-color: plum;
-  border: 5px solid purple;
-  text-align: center;
+#minha_foto {
+  border: rgb(253, 251, 251);
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
   
 }
 
-table , th , td {
-  border: 1px solid black;
-  border-collapse: collapse;
+table {
+  margin-top: 150px;
 }
 
-      
+#table , th , td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 100px;
+}
+
+#link {
+  font-size: 20px;
+}
+
+.lado-esquerdo {
+  border: 5px solid purple;
+  border-radius: 10px;
+  width: 40%;
+  float: left;
+}
+  
+.lado-direito {
+  border: 5px solid purple;
+  border-radius: 10px;
+  width: 40%;
+  float: right;
+}
+
+footer {
+  padding: 20px;
+}
