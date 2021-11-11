@@ -1,11 +1,11 @@
 body {
   font-family: fantasy;
-  background-color:  rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin: 20px;
 
 }
 
-main{
+main {
   color: palevioletred;
   font-weight: 700;
   line-height: 20px;
@@ -16,18 +16,19 @@ main{
 }
 
 #cabecalho {
-position: fixed;
-top: 0;
-background-color: rgb(253, 251, 251);
-width: 100%;
-text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: rgb(253, 251, 251);
+  width: 100%;
+  text-align: center;
 }
+
 #minha_foto {
   border: rgb(253, 251, 251);
   border-radius: 10px;
   width: 300px;
   margin: 10px;
-  
+
 }
 
 table {
@@ -50,7 +51,7 @@ table {
   width: 40%;
   float: left;
 }
-  
+
 .lado-direito {
   border: 5px solid purple;
   border-radius: 10px;
